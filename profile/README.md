@@ -99,13 +99,10 @@ The editor is still in active development. Meanwhile, the focused libraries that
       <p>
         <a href="https://github.com/focale-editor/abrkit"><strong>abrkit</strong></a>
         · <a href="https://github.com/focale-editor/cshkit"><strong>cshkit</strong></a>
-        · <a href="https://github.com/focale-editor/patkit"><strong>patkit</strong></a><br>
-        <sub>Codecs for Photoshop brush, custom-shape and pattern libraries.</sub>
-      </p>
-      <p>
-        <a href="https://github.com/focale-editor/acvkit"><strong>acvkit</strong></a>
+        · <a href="https://github.com/focale-editor/patkit"><strong>patkit</strong></a>
+        · <a href="https://github.com/focale-editor/acvkit"><strong>acvkit</strong></a>
         · <a href="https://github.com/focale-editor/aslkit"><strong>aslkit</strong></a><br>
-        <sub>Codecs for Photoshop curve and layer-style files.</sub>
+        <sub>Codecs for Photoshop brush, custom-shape, pattern, curve and layer-style files.</sub>
       </p>
     </td>
   </tr>
