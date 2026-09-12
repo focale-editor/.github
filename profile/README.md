@@ -63,15 +63,19 @@ Focale keeps the workspace experienced editors already know — document tabs, a
 
 ## The open-source foundation
 
-The editor is still in active development. Meanwhile, the focused libraries that power its formats, compression, stylus input and platform integration are already developed in the open.
+The editor is still in active development. Meanwhile, the focused libraries that power its formats, imaging algorithms, creative input and platform integration are already developed in the open.
 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3><code>01</code>&nbsp; Image pipeline</h3>
+      <h3><code>01</code>&nbsp; Formats &amp; codecs</h3>
       <p>
         <a href="https://github.com/focale-editor/imcodec"><strong>imcodec</strong></a><br>
         <sub>Focused codecs for BMP, GIF, JPEG, JPEG XL, PNG, QOI, TGA, TIFF and WebP.</sub>
+      </p>
+      <p>
+        <a href="https://github.com/focale-editor/imcodec-native"><strong>imcodec-native</strong></a><br>
+        <sub>Optional AVIF, HEIF/HEIC, JPEG XL and WebP codecs backed by bundled native and WebAssembly engines.</sub>
       </p>
       <p>
         <a href="https://github.com/focale-editor/rawkit"><strong>rawkit</strong></a><br>
@@ -94,33 +98,38 @@ The editor is still in active development. Meanwhile, the focused libraries that
       </p>
       <p>
         <a href="https://github.com/focale-editor/abrkit"><strong>abrkit</strong></a>
-        · <a href="https://github.com/focale-editor/patkit"><strong>patkit</strong></a>
-        · <a href="https://github.com/focale-editor/cshkit"><strong>cshkit</strong></a><br>
-        <sub>Readers for Photoshop brushes, patterns and custom-shape libraries.</sub>
+        · <a href="https://github.com/focale-editor/cshkit"><strong>cshkit</strong></a>
+        · <a href="https://github.com/focale-editor/patkit"><strong>patkit</strong></a><br>
+        <sub>Readers for Photoshop brush, custom-shape and pattern libraries.</sub>
+      </p>
+      <p>
+        <a href="https://github.com/focale-editor/acvkit"><strong>acvkit</strong></a>
+        · <a href="https://github.com/focale-editor/aslkit"><strong>aslkit</strong></a><br>
+        <sub>Codecs for Photoshop curve and layer-style files.</sub>
       </p>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3><code>03</code>&nbsp; Creative input</h3>
+      <h3><code>03</code>&nbsp; Imaging tools</h3>
       <p>
-        <a href="https://github.com/focale-editor/stylet"><strong>stylet</strong></a><br>
-        <sub>Cross-platform Flutter stylus input with pressure, tilt, rotation, hover and buttons.</sub>
+        <a href="https://github.com/focale-editor/panoramerge"><strong>panoramerge</strong></a><br>
+        <sub>Pure Dart panorama registration, seam finding and multiband blending for RGB and CMYK rasters.</sub>
       </p>
       <p>
-        <a href="https://github.com/focale-editor/imclipboard"><strong>imclipboard</strong></a><br>
-        <sub>PNG clipboard access across Flutter desktop, mobile and web.</sub>
+        <a href="https://github.com/focale-editor/dartface"><strong>dartface</strong></a><br>
+        <sub>Offline frontal-face detection with image decoding and no machine-learning runtime.</sub>
       </p>
     </td>
     <td width="50%" valign="top">
-      <h3><code>04</code>&nbsp; Follow the project</h3>
+      <h3><code>04</code>&nbsp; Creative input &amp; platform</h3>
       <p>
-        <a href="https://github.com/focale-editor/website"><strong>website</strong></a><br>
-        <sub>The multilingual Nuxt site, roadmap and first-alpha signup.</sub>
+        <a href="https://github.com/focale-editor/stylet"><strong>stylet</strong></a><br>
+        <sub>Cross-platform Flutter stylus input with pressure, tilt, barrel rotation, hover, buttons, double-tap and squeeze.</sub>
       </p>
       <p>
-        <a href="https://github.com/orgs/focale-editor/repositories"><strong>All repositories</strong></a><br>
-        <sub>Browse source code, package documentation and issue trackers.</sub>
+        <a href="https://github.com/focale-editor/imclipboard"><strong>imclipboard</strong></a><br>
+        <sub>Read and write PNG images through the system clipboard across Flutter desktop, mobile and web.</sub>
       </p>
     </td>
   </tr>
@@ -128,6 +137,10 @@ The editor is still in active development. Meanwhile, the focused libraries that
 
 <p align="center">
   <a href="https://pub.dev/publishers/focale-editor.app/packages"><strong>Explore every package on pub.dev&nbsp; →</strong></a>
+  &nbsp;·&nbsp;
+  <a href="https://github.com/focale-editor/website"><strong>View the website source&nbsp; →</strong></a>
+  &nbsp;·&nbsp;
+  <a href="https://github.com/orgs/focale-editor/repositories"><strong>Browse all repositories&nbsp; →</strong></a>
 </p>
 
 ---
