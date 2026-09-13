@@ -1,0 +1,73 @@
+name: Feature request
+description: Suggest a focused improvement to a Focale package.
+title: '[Feature]: '
+labels:
+  - enhancement
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for proposing an improvement. Please describe the user problem before the implementation you have in mind.
+  - type: dropdown
+    id: package
+    attributes:
+      label: Package
+      description: Which package should provide this feature?
+      options:
+        - abrkit
+        - acvkit
+        - aslkit
+        - cshkit
+        - dartface
+        - imclipboard
+        - imcodec
+        - imcodec_native
+        - panoramerge
+        - patkit
+        - pscore
+        - psdkit
+        - rawkit
+        - stylet
+        - zcodec
+        - New or cross-package work
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Use case
+      description: What are you trying to accomplish, and who benefits?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution
+      description: Describe the behavior or API you would like. Small examples are welcome.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: How do you solve this today, and what trade-offs did you find?
+  - type: textarea
+    id: compatibility
+    attributes:
+      label: Compatibility and scope
+      description: Note relevant formats, platforms, performance constraints, or migration concerns.
+  - type: checkboxes
+    id: contribution
+    attributes:
+      label: Contribution
+      options:
+        - label: I would be willing to help implement this after the approach is accepted.
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Submission checklist
+      options:
+        - label: I searched existing issues and documentation for this request.
+          required: true
+        - label: This request describes one focused feature or closely related set of changes.
+          required: true

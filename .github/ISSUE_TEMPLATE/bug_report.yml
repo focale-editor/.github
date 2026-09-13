@@ -1,0 +1,110 @@
+name: Bug report
+description: Report a reproducible problem in a Focale package.
+title: '[Bug]: '
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report a problem. Please search existing issues first and remove sensitive data from logs and samples.
+  - type: dropdown
+    id: package
+    attributes:
+      label: Package
+      description: Which package is affected?
+      options:
+        - abrkit
+        - acvkit
+        - aslkit
+        - cshkit
+        - dartface
+        - imclipboard
+        - imcodec
+        - imcodec_native
+        - panoramerge
+        - patkit
+        - pscore
+        - psdkit
+        - rawkit
+        - stylet
+        - zcodec
+    validations:
+      required: true
+  - type: input
+    id: package-version
+    attributes:
+      label: Package version
+      placeholder: 1.2.3
+    validations:
+      required: true
+  - type: input
+    id: sdk-version
+    attributes:
+      label: Dart or Flutter version
+      description: Paste the relevant version from `dart --version` or `flutter --version`.
+    validations:
+      required: true
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform
+      options:
+        - Dart VM
+        - Android
+        - iOS
+        - Linux
+        - macOS
+        - Web
+        - Windows
+        - Multiple or other
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Problem
+      description: What happened, and what impact does it have?
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Minimal reproduction
+      description: Provide the smallest code sample, input description, or repository that reproduces the problem.
+      render: dart
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Initialize ...
+        2. Call ...
+        3. Observe ...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: diagnostics
+    attributes:
+      label: Logs and diagnostics
+      description: Include the complete exception and stack trace when available. Remove private paths, files, and credentials.
+      render: shell
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Submission checklist
+      options:
+        - label: I searched existing issues for the same problem.
+          required: true
+        - label: I can reproduce this with a supported package and SDK version.
+          required: true
+        - label: I removed secrets, personal data, and private assets from this report.
+          required: true
