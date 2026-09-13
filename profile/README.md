@@ -63,7 +63,7 @@ Focale keeps the workspace experienced editors already know — document tabs, a
 
 ## The open-source foundation
 
-The editor is still in active development. Meanwhile, the focused libraries that power its formats, imaging algorithms, creative input and platform integration are already developed in the open.
+The editor is still in active development. Meanwhile, the focused libraries that power its formats, color management, imaging algorithms, creative input and platform integration are already developed in the open.
 
 <table>
   <tr>
@@ -71,11 +71,15 @@ The editor is still in active development. Meanwhile, the focused libraries that
       <h3><code>01</code>&nbsp; Formats &amp; codecs</h3>
       <p>
         <a href="https://github.com/focale-editor/imcodec"><strong>imcodec</strong></a><br>
-        <sub>Focused codecs for BMP, GIF, JPEG, JPEG XL, PNG, QOI, TGA, TIFF and WebP.</sub>
+        <sub>Focused codecs for BMP, GIF, JPEG, JPEG XL, OpenEXR, PNG, QOI, TGA, TIFF and WebP.</sub>
       </p>
       <p>
         <a href="https://github.com/focale-editor/imcodec-native"><strong>imcodec-native</strong></a><br>
         <sub>Optional AVIF, HEIF/HEIC, JPEG XL and WebP codecs backed by bundled native and WebAssembly engines.</sub>
+      </p>
+      <p>
+        <a href="https://github.com/focale-editor/animcodec"><strong>animcodec</strong></a><br>
+        <sub>Animated raster codecs built on imcodec for editable frame sequences.</sub>
       </p>
       <p>
         <a href="https://github.com/focale-editor/rawkit"><strong>rawkit</strong></a><br>
@@ -116,6 +120,10 @@ The editor is still in active development. Meanwhile, the focused libraries that
       <p>
         <a href="https://github.com/focale-editor/dartface"><strong>dartface</strong></a><br>
         <sub>Offline frontal-face detection with image decoding and no machine-learning runtime.</sub>
+      </p>
+      <p>
+        <a href="https://github.com/focale-editor/chromalib"><strong>chromalib</strong></a><br>
+        <sub>Fast, typed ICC color transforms for Dart, powered by Little CMS.</sub>
       </p>
     </td>
     <td width="50%" valign="top">
