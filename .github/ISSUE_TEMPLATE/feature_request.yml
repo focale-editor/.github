@@ -3,35 +3,13 @@ description: Suggest a focused improvement to a Focale package.
 title: '[Feature]: '
 labels:
   - enhancement
+assignees:
+  - Skyost
 body:
   - type: markdown
     attributes:
       value: |
         Thanks for proposing an improvement. Please describe the user problem before the implementation you have in mind.
-  - type: dropdown
-    id: package
-    attributes:
-      label: Package
-      description: Which package should provide this feature?
-      options:
-        - abrkit
-        - acvkit
-        - aslkit
-        - cshkit
-        - dartface
-        - imclipboard
-        - imcodec
-        - imcodec_native
-        - panoramerge
-        - patkit
-        - pscore
-        - psdkit
-        - rawkit
-        - stylet
-        - zcodec
-        - New or cross-package work
-    validations:
-      required: true
   - type: textarea
     id: problem
     attributes:

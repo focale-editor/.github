@@ -3,34 +3,13 @@ description: Report a reproducible problem in a Focale package.
 title: '[Bug]: '
 labels:
   - bug
+assignees:
+  - Skyost
 body:
   - type: markdown
     attributes:
       value: |
         Thanks for taking the time to report a problem. Please search existing issues first and remove sensitive data from logs and samples.
-  - type: dropdown
-    id: package
-    attributes:
-      label: Package
-      description: Which package is affected?
-      options:
-        - abrkit
-        - acvkit
-        - aslkit
-        - cshkit
-        - dartface
-        - imclipboard
-        - imcodec
-        - imcodec_native
-        - panoramerge
-        - patkit
-        - pscore
-        - psdkit
-        - rawkit
-        - stylet
-        - zcodec
-    validations:
-      required: true
   - type: input
     id: package-version
     attributes:
