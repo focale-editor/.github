@@ -52,8 +52,8 @@ Focale keeps the workspace experienced editors already know — document tabs, a
 <p align="center">
   <a href="https://focale-editor.app/#preview">
     <img
-      src="https://raw.githubusercontent.com/focale-editor/website/main/public/images/screenshot.webp"
-      alt="Focale showing an aurora photograph on the canvas"
+      src="https://github.com/focale-editor/website/blob/main/public/images/screenshots/en/dark/01-editor.webp"
+      alt="Focale editor screenshot"
       width="100%"
     >
   </a>
