@@ -12,8 +12,8 @@
   <a href="https://focale-editor.app">
     <img src="https://img.shields.io/badge/Website-focale--editor.app-007cf9?style=flat-square" alt="Focale website">
   </a>
-  <a href="https://focale-editor.app/#newsletter">
-    <img src="https://img.shields.io/badge/Status-alpha_coming_soon-181f33?style=flat-square" alt="Alpha coming soon">
+  <a href="https://focale-editor.app/#downloads">
+    <img src="https://img.shields.io/badge/Status-public_alpha-181f33?style=flat-square" alt="Public alpha available">
   </a>
   <a href="https://pub.dev/publishers/focale-editor.app/packages">
     <img src="https://img.shields.io/badge/Packages-pub.dev-007cf9?style=flat-square&amp;logo=dart&amp;logoColor=white" alt="Focale packages on pub.dev">
@@ -53,17 +53,40 @@ Focale keeps the workspace experienced editors already know — document tabs, a
   <a href="https://focale-editor.app/#preview">
     <img
       src="https://raw.githubusercontent.com/focale-editor/website/main/public/images/screenshot.webp"
-      alt="A development build of Focale showing an aurora photograph on the canvas"
+      alt="Focale showing an aurora photograph on the canvas"
       width="100%"
     >
   </a>
   <br>
-  <sub>Preview from a development build — the interface is still evolving.</sub>
+  <sub>The interface is still evolving with every alpha release.</sub>
 </p>
+
+## Try the public alpha
+
+The first public alpha of Focale is available for Windows, macOS and Linux. Expect rough edges — and once installed, Focale auto-updates and offers new versions as soon as they are released.
+
+<p align="center">
+  <a href="https://focale-editor.app/#downloads"><strong>Download Focale&nbsp; →</strong></a>
+  &nbsp;·&nbsp;
+  <a href="https://github.com/focale-editor/get-focale/releases"><strong>Release notes&nbsp; →</strong></a>
+</p>
+
+On Linux, you can also install it from a terminal:
+
+```bash
+curl -fsSL https://get.focale-editor.app/install.sh | bash
+```
+
+## Help shape Focale
+
+Found a bug, missing a feature or have an idea for a better workflow?
+[Focale Community](https://github.com/focale-editor/community) brings together
+bug reports, feature requests, improvements and questions about the editor,
+website and downloads. Feedback in English and French is welcome.
 
 ## The open-source foundation
 
-The editor is still in active development. Meanwhile, the focused libraries that power its formats, color management, imaging algorithms, creative input and platform integration are already developed in the open.
+Alongside the editor, the focused libraries that power its formats, color management, imaging algorithms, creative input and platform integration are already developed in the open.
 
 <table>
   <tr>
@@ -151,9 +174,11 @@ The editor is still in active development. Meanwhile, the focused libraries that
 ---
 
 <p align="center">
-  <strong>Be there for the first alpha.</strong><br>
-  <sub>One email when the first downloadable build is ready — nothing in between.</sub><br><br>
-  <a href="https://focale-editor.app/#newsletter">Get notified</a>
+  <strong>The first public alpha is here.</strong><br>
+  <sub>Download it, break it and tell us what you think.</sub><br><br>
+  <a href="https://focale-editor.app/#downloads">Download Focale</a>
+  &nbsp;·&nbsp;
+  <a href="https://github.com/focale-editor/community/issues/new/choose">Give feedback</a>
   &nbsp;·&nbsp;
   <a href="https://focale-editor.app/#roadmap">See the roadmap</a>
   &nbsp;·&nbsp;
