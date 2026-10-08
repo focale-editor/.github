@@ -179,8 +179,6 @@ Alongside the editor, the focused libraries that power its formats, color manage
   <a href="https://focale-editor.app/#downloads">Download Focale</a>
   &nbsp;·&nbsp;
   <a href="https://github.com/focale-editor/community/issues/new/choose">Give feedback</a>
-  &nbsp;·&nbsp;
-  <a href="mailto:contact@focale-editor.app">Contact us</a>
 </p>
 
 <p align="center">
