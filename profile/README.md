@@ -199,20 +199,12 @@ Alongside the editor, the libraries that power its formats, color management, im
         <a href="https://github.com/focale-editor/pickpick"><strong>pickpick</strong></a><br>
         <sub>Select a color anywhere on screen with native desktop and supported browser pickers.</sub>
       </p>
-      <p>
-        <a href="https://github.com/focale-editor/multi-view-desktop"><strong>multi-view-desktop</strong></a><br>
-        <sub>Manage multiple desktop windows from one Flutter engine and one Dart isolate.</sub>
-      </p>
     </td>
     <td width="50%" valign="top">
       <h3><code>06</code>&nbsp; Distribution &amp; community</h3>
       <p>
         <a href="https://github.com/focale-editor/get-focale"><strong>get-focale</strong></a><br>
         <sub>Public downloads, releases and installation tools for Focale.</sub>
-      </p>
-      <p>
-        <a href="https://github.com/focale-editor/flatpak"><strong>flatpak</strong></a><br>
-        <sub>Official Linux Flatpak distribution with desktop integration and updates.</sub>
       </p>
       <p>
         <a href="https://github.com/focale-editor/community"><strong>community</strong></a><br>
