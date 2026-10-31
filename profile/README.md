@@ -207,6 +207,10 @@ Alongside the editor, the libraries that power its formats, color management, im
         <sub>Public downloads, releases and installation tools for Focale.</sub>
       </p>
       <p>
+        <a href="https://github.com/focale-editor/flatpak"><strong>flatpak</strong></a><br>
+        <sub>Official Linux Flatpak distribution with desktop integration and updates.</sub>
+      </p>
+      <p>
         <a href="https://github.com/focale-editor/community"><strong>community</strong></a><br>
         <sub>Bug reports, feature requests and questions about Focale, its website and downloads.</sub>
       </p>
