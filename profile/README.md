@@ -86,7 +86,7 @@ website and downloads. Feedback in English and French is welcome.
 
 ## The open-source foundation
 
-Alongside the editor, the focused libraries that power its formats, color management, imaging algorithms, creative input and platform integration are already developed in the open.
+Alongside the editor, the libraries that power its formats, color management, imaging algorithms, creative input and platform integration are developed in the open, together with distribution and community projects.
 
 <table>
   <tr>
@@ -109,8 +109,12 @@ Alongside the editor, the focused libraries that power its formats, color manage
         <sub>A reusable Dart SDK for importing and developing camera RAW images.</sub>
       </p>
       <p>
+        <a href="https://github.com/focale-editor/xcfkit"><strong>xcfkit</strong></a><br>
+        <sub>Read, edit and write layered GIMP XCF documents in pure Dart, retaining layers, masks, editable content and metadata.</sub>
+      </p>
+      <p>
         <a href="https://github.com/focale-editor/zcodec"><strong>zcodec</strong></a><br>
-        <sub>Dependency-free DEFLATE, zlib, GZIP, TAR and ZIP codecs in pure Dart.</sub>
+        <sub>Dependency-free DEFLATE, zlib, GZIP, Zstandard, TAR and ZIP codecs in pure Dart.</sub>
       </p>
     </td>
     <td width="50%" valign="top">
@@ -121,7 +125,7 @@ Alongside the editor, the focused libraries that power its formats, color manage
       </p>
       <p>
         <a href="https://github.com/focale-editor/pscore"><strong>pscore</strong></a><br>
-        <sub>Shared binary, descriptor, PackBits and pattern codecs.</sub>
+        <sub>Shared binary, descriptor, Adobe text-engine, PackBits and pattern codecs.</sub>
       </p>
       <p>
         <a href="https://github.com/focale-editor/abrkit"><strong>abrkit</strong></a>
@@ -146,7 +150,22 @@ Alongside the editor, the focused libraries that power its formats, color manage
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3><code>03</code>&nbsp; Imaging tools</h3>
+      <h3><code>03</code>&nbsp; Vector &amp; document formats</h3>
+      <p>
+        <a href="https://github.com/focale-editor/aikit"><strong>aikit</strong></a><br>
+        <sub>Illustrator containers, compressed native programs, source-preserving layer and path edits, and AI7 artwork creation in pure Dart.</sub>
+      </p>
+      <p>
+        <a href="https://github.com/focale-editor/pdfcore"><strong>pdfcore</strong></a><br>
+        <sub>Read, edit and write PDF pages, vector paths, text, images, forms and resources in pure Dart.</sub>
+      </p>
+      <p>
+        <a href="https://github.com/focale-editor/svgkit"><strong>svgkit</strong></a><br>
+        <sub>SVG and SVGZ editing with immutable snapshots, paths, transforms, styles, text and reusable resources.</sub>
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h3><code>04</code>&nbsp; Imaging &amp; typography</h3>
       <p>
         <a href="https://github.com/focale-editor/panoramerge"><strong>panoramerge</strong></a><br>
         <sub>Pure Dart panorama registration, seam finding and multiband blending for RGB and CMYK rasters.</sub>
@@ -159,9 +178,15 @@ Alongside the editor, the focused libraries that power its formats, color manage
         <a href="https://github.com/focale-editor/chromalib"><strong>chromalib</strong></a><br>
         <sub>Fast, typed ICC color transforms for Dart, powered by Little CMS.</sub>
       </p>
+      <p>
+        <a href="https://github.com/focale-editor/textshaperlib"><strong>textshaperlib</strong></a><br>
+        <sub>Contextual OpenType text shaping and original glyph contours for Dart, powered by HarfBuzz on native and browser targets.</sub>
+      </p>
     </td>
+  </tr>
+  <tr>
     <td width="50%" valign="top">
-      <h3><code>04</code>&nbsp; Creative input &amp; platform</h3>
+      <h3><code>05</code>&nbsp; Creative input &amp; platform</h3>
       <p>
         <a href="https://github.com/focale-editor/stylet"><strong>stylet</strong></a><br>
         <sub>Cross-platform Flutter stylus input with pressure, tilt, barrel rotation, hover, buttons, double-tap and squeeze.</sub>
@@ -169,6 +194,29 @@ Alongside the editor, the focused libraries that power its formats, color manage
       <p>
         <a href="https://github.com/focale-editor/imclipboard"><strong>imclipboard</strong></a><br>
         <sub>Read and write PNG images through the system clipboard across Flutter desktop, mobile and web.</sub>
+      </p>
+      <p>
+        <a href="https://github.com/focale-editor/pickpick"><strong>pickpick</strong></a><br>
+        <sub>Select a color anywhere on screen with native desktop and supported browser pickers.</sub>
+      </p>
+      <p>
+        <a href="https://github.com/focale-editor/multi-view-desktop"><strong>multi-view-desktop</strong></a><br>
+        <sub>Manage multiple desktop windows from one Flutter engine and one Dart isolate.</sub>
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h3><code>06</code>&nbsp; Distribution &amp; community</h3>
+      <p>
+        <a href="https://github.com/focale-editor/get-focale"><strong>get-focale</strong></a><br>
+        <sub>Public downloads, releases and installation tools for Focale.</sub>
+      </p>
+      <p>
+        <a href="https://github.com/focale-editor/flatpak"><strong>flatpak</strong></a><br>
+        <sub>Official Linux Flatpak distribution with desktop integration and updates.</sub>
+      </p>
+      <p>
+        <a href="https://github.com/focale-editor/community"><strong>community</strong></a><br>
+        <sub>Bug reports, feature requests and questions about Focale, its website and downloads.</sub>
       </p>
     </td>
   </tr>
