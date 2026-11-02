@@ -152,7 +152,7 @@ Alongside the editor, the libraries that power its formats, color management, im
     <td width="50%" valign="top">
       <h3><code>03</code>&nbsp; Vector &amp; document formats</h3>
       <p>
-        <a href="https://github.com/focale-editor/aikit"><strong>aikit</strong></a><br>
+        <a href="https://github.com/focale-editor/aicodec"><strong>aicodec</strong></a><br>
         <sub>Illustrator containers, compressed native programs, source-preserving layer and path edits, and AI7 artwork creation in pure Dart.</sub>
       </p>
       <p>
